@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    min-width: 900px;
+    background-color: aliceblue;
+    background-image: url("./Images/arrow_circle_up_FILL0_wght400_GRAD0_opsz48.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+}
+p {
+    font-family: Roboto, sans-serif;
+}
+
+.arama {
+    display: inline-block;
+}
+
+.searchint {
+    width: 300px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.search {
+    height: 35px;
+    width: 35px;
+    border: 1;
+    border-radius: 5px;
+}
+
+.navbar {
+    background-color: rgb(151, 125, 202);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.navbar a {
+    border-radius: 15px;
+    padding: 14px;
+    text-decoration: none;
+    /* transition-duration: 600ms; */
+    transition-timing-function: ease;
+    transition: all 150ms ease-in 125ms;
+    color: black;
+}
+
+.nav1 {
+    text-align: left;
+    flex-grow: 10;
+}
+.nav2 {
+    flex-grow: 0;
+}
+.nav3 {
+    flex-grow: 0;
+}
+.nav4 {
+    flex-grow: 0;
+}
+.nav5 {
+    flex-grow: 0;
+}
+
+.tp-color {
+    transition-property: background-color;
+  }
+.navbar a:is(:hover, :focus) {
+    /* transform: scale(1.3); */
+    background-color: rgb(157, 138, 196);
+}
+
+.navbar a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.text1 {
+    width: 60%;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.text1 h1 {
+    margin-bottom: 10px;
+    font-size: 42px;
+}
+
+.general {
+    background-color: antiquewhite;
+    width: fit-content;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    float: right;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding: 0 10px 0 10px;
+}
+.general table th {
+    text-align: right;
+}
+.general table td {
+    text-align: left;
+}
+
+.text2 {
+    width: 60%;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.text2 h2 i{
+    margin-bottom: 10px;
+    font-size: 25px;
+
+}
+
+.text3 {
+    width: 60%;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.text3 h2 i{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.text3 ul {
+    display: inline-block;
+}
+
+.text4 {
+    width: 60%;
+    margin: 20px;
+    margin-left: 50px;
+}
+.text4 h2 i {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.text4 table, .text4 th, .text4 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.text5 h2 i{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.text5 {
+    width: 80%;
+    margin: 20px;
+    margin-left: 50px;
+}
+.text6 h2 i{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.text6 {
+    width: 80%;
+    margin: 20px;
+    margin-left: 50px;
+}
+.text7 h2 i{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.text7 {
+    width: 80%;
+    margin: 20px;
+    margin-left: 50px;
+}
+.text8 h2 i{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.text8 {
+    width: 80%;
+    margin: 20px;
+    margin-left: 50px;
+}
